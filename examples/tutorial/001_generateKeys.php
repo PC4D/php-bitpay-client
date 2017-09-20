@@ -14,7 +14,7 @@ require __DIR__.'/../../vendor/autoload.php';
 /**
  * Start by creating a PrivateKey object
  */
-$privateKey = new \Bitpay\PrivateKey('/tmp/bitpay.pri');
+$privateKey = new \Bitpay\PrivateKey('../tmp/api.key');
 
 // Generate a random number
 $privateKey->generate();
